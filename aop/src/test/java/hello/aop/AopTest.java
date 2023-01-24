@@ -15,7 +15,6 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 @Slf4j
 @SpringBootTest
-//@Import({AspectV5Order.LogAspect.class, AspectV5Order.TxAspect.class}) //스프링 빈으로 등록하는 방법
 @Import(AspectV6Advice.class)
 public class AopTest {
 
